@@ -8,14 +8,14 @@
   * [x] `/scripts`
   * [x] `/assets`
   * [x] `/shaders`
-* [ ] Crear `Main.tscn`
-* [ ] Añadir nodos base:
+* [x] Crear `Main.tscn`
+* [x] Añadir nodos base:
 
-  * [ ] `BackgroundLayer`
-  * [ ] `DashboardLayer`
-  * [ ] `OverlayLayer`
-* [ ] Separar lógica en `/scripts/managers`
-* [ ] Separar widgets en `/scripts/widgets`
+  * [x] `BackgroundLayer`
+  * [x] `DashboardLayer`
+  * [x] `OverlayLayer`
+* [x] Separar lógica en `/scripts/managers`
+* [x] Separar widgets en `/scripts/widgets`
 
 ---
 
