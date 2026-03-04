@@ -10,9 +10,26 @@ config_version=5
 
 [application]
 
-config/name="New Game Project"
+config/name="Luma"
+config/description="Luma is a modular ambient display designed for desktop environments.
+
+It turns your screen into a calm, living surface. Something that sits quietly in the background while offering subtle, useful information when you need it.
+
+Luma is not a traditional screensaver, and it is not a heavy dashboard either.
+The most accurate way to describe it is as an **Ambient Display**: a minimal, elegant layer that blends photos, gentle motion, and modular widgets into a single, distraction-free experience."
+config/version="0.0.0"
+run/main_scene="uid://155xx7s6y6ta"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://4q335xxs2p"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
+window/size/borderless=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [physics]
 
@@ -20,6 +37,8 @@ config/icon="res://icon.svg"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
