@@ -9,14 +9,17 @@ A modular ambient display designed for desktop environments.
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/license-MIT-blue.svg">
-	<img src="https://img.shields.io/badge/built%20with-Godot-478cbf">
-	<img src="https://img.shields.io/badge/platform-Linux-lightgrey">
-	<img src="https://img.shields.io/badge/status-in%20development-orange">
-	<img src="https://img.shields.io/github/stars/aguadecoco1301/luma">
-	<img src="https://img.shields.io/github/issues/aguadecoco1301/luma">
-	<img src="https://img.shields.io/github/last-commit/aguadecoco1301/luma">
-	<img src="https://img.shields.io/badge/status-prototype-red">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img src="https://img.shields.io/badge/built%20with-Godot-478cbf">
+  <img src="https://img.shields.io/badge/platform-Linux-lightgrey">
+  <img src="https://img.shields.io/badge/status-prototype-red">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in%20development-orange">
+  <img src="https://img.shields.io/github/stars/aguadecoco1301/luma">
+  <img src="https://img.shields.io/github/issues/aguadecoco1301/luma">
+  <img src="https://img.shields.io/github/last-commit/aguadecoco1301/luma">
 </p>
 
 ---
