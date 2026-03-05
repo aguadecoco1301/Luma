@@ -1,0 +1,8 @@
+Night:
+	Background: 0f1115ff
+	Active: 8fa6ffff
+	Idle: 1f242bff
+Day:
+	Background: eaecefff
+	Active: 5c6ac4ff
+	Idle: c9cdd4ff
