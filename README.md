@@ -16,6 +16,7 @@ A modular ambient display designed for desktop environments.
 	<img src="https://img.shields.io/github/stars/aguadecoco1301/luma">
 	<img src="https://img.shields.io/github/issues/aguadecoco1301/luma">
 	<img src="https://img.shields.io/github/last-commit/aguadecoco1301/luma">
+	<img src="https://img.shields.io/badge/status-prototype-red">
 </p>
 
 ---
