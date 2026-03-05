@@ -9,12 +9,11 @@ A modular ambient display designed for desktop environments.
 </p>
 
 <p align="center">
-
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Engine](https://img.shields.io/badge/engine-Godot-blue)
-![Status](https://img.shields.io/badge/status-in%20development-orange)
-![Open Source](https://img.shields.io/badge/open%20source-yes-brightgreen)
-
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img src="https://img.shields.io/badge/engine-Godot-blue">
+  <img src="https://img.shields.io/badge/status-in%20development-orange">
+  <img src="https://img.shields.io/badge/open%20source-yes-brightgreen">
+  <img src="https://img.shields.io/github/issues/aguadecoco1301/luma">
 </p>
 
 ---
