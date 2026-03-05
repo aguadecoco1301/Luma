@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="assets/images/icon/svg/icon_night.svg" width="160" alt="Luma logo">
+</p>
+
+<h1 align="center">Luma — Ambient Display</h1>
+
+<p align="center">
+A modular ambient display designed for desktop environments.
+</p>
+
+---
+
 # Luma — Ambient Display
 Luma is a modular ambient display designed for desktop environments.
 
