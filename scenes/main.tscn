@@ -1,61 +1,21 @@
 [gd_scene format=3 uid="uid://155xx7s6y6ta"]
 
+[ext_resource type="Script" uid="uid://n737x6prckfg" path="res://scripts/manager/main.gd" id="1_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://dicamwke013wj" path="res://scenes/background_layer.tscn" id="1_sugp2"]
 [ext_resource type="PackedScene" uid="uid://pjkudqmfysj0" path="res://scenes/dashboard_layer.tscn" id="2_jyhfs"]
-[ext_resource type="Script" uid="uid://bxsiu6dhrkfwh" path="res://scenes/button.gd" id="3_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://bmb5c04wxosqm" path="res://scenes/overlay_layer.tscn" id="3_tbgi4"]
 
-[sub_resource type="LabelSettings" id="LabelSettings_sugp2"]
-font_size = 48
-outline_size = 13
-outline_color = Color(0, 0, 0, 1)
-
 [node name="Main" type="Node" unique_id=134652477]
+script = ExtResource("1_jyhfs")
 
 [node name="BackgroundLayer" parent="." unique_id=625832299 instance=ExtResource("1_sugp2")]
 
 [node name="DashboardLayer" parent="." unique_id=355233893 instance=ExtResource("2_jyhfs")]
 
-[node name="Label" type="Label" parent="DashboardLayer" unique_id=310867817]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -149.5
-offset_top = -140.0
-offset_right = 149.5
-offset_bottom = -72.99997
-grow_horizontal = 2
-grow_vertical = 2
-text = "Hola mundo!"
-label_settings = SubResource("LabelSettings_sugp2")
-horizontal_alignment = 1
-
-[node name="Container" type="HBoxContainer" parent="DashboardLayer" unique_id=1505934223]
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -353.0
-grow_horizontal = 2
-grow_vertical = 0
-alignment = 1
-
-[node name="Button2" type="Button" parent="DashboardLayer/Container" unique_id=1855764240]
-layout_mode = 2
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 230
-text = "Prueba
-"
-
-[node name="Button" type="Button" parent="DashboardLayer/Container" unique_id=1909335563]
-layout_mode = 2
-size_flags_horizontal = 3
-theme_override_font_sizes/font_size = 230
-text = "Cerrar"
-script = ExtResource("3_jyhfs")
-
 [node name="OverlayLayer" parent="." unique_id=474449360 instance=ExtResource("3_tbgi4")]
 
-[connection signal="pressed" from="DashboardLayer/Container/Button" to="DashboardLayer/Container/Button" method="_on_pressed"]
+[connection signal="load" from="DashboardLayer" to="." method="_on_load"]
+[connection signal="file_selected" from="OverlayLayer/FileDialog" to="." method="_on_file_dialog_file_selected"]
+
+[editable path="DashboardLayer"]
+[editable path="OverlayLayer"]

@@ -1,3 +1,20 @@
 [gd_scene format=3 uid="uid://dicamwke013wj"]
 
 [node name="BackgroundLayer" type="Node2D" unique_id=625832299]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1417923770]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=971521261]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=51199421]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 5
